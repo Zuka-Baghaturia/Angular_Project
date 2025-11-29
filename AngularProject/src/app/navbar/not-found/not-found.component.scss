@@ -1,0 +1,47 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 80px;
+    margin: 10px 0;
+    color: black;
+}
+
+
+.btn {
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 3px;
+    border-color: chocolate;
+}
+
+.btn:hover {
+    background-color: chocolate;
+    transition: 0.5s;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        height: 70vh;
+    }
+
+    .container h1 {
+        font-size: 50px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

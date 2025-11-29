@@ -1,0 +1,15 @@
+<div class="text">
+    <h1>Welcome to MyStore!</h1>
+    <h1>Online Shop</h1>
+</div>
+
+<div class="verification">
+    <h1>Are you a human?</h1>
+    <br>
+    <button (click)="logger()">Yes I Am</button>
+    <br><br>
+    <button (click)="notlogger()">No i am Not</button>
+    <br>
+    <h1 *ngIf="human">You are a human</h1>
+    <h1 *ngIf="!human"> You are not a human</h1>
+</div>
